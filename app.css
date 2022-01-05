@@ -1,6 +1,6 @@
 :root {
     background-color: #ecf5ff;
-    font:62.5%;
+    font-size:62.5%;
 }
 
 *{
@@ -45,7 +45,8 @@ h4 {
     justify-content: center;
     align-items: center;
     max-width: 80rem;
-    margin: 0;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .container > * {
