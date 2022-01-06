@@ -3,38 +3,28 @@ const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
+const loader = document.getElementById("loader");
+const game = document.getElementById("game");
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let questions = [
-{
-    question: "Inside which HTML element do we put the Javascript??",
-    choice1: "<script>",
-    choice2: "<javascript>",
-    choice3: "<js>",
-    choice4: "<scripting>",
-    answer: 1
-},
-{
-    question: "Inside which HTML element do we put the Javascript?? 2",
-    choice1: "<script2>",
-    choice2: "<javascript>2",
-    choice3: "<js2>",
-    choice4: "<scripting2>",
-    answer: 3
-},
-{
-    question: "Inside which HTML element do we put the Javascript?? 3",
-    choice1: "<script3>",
-    choice2: "<javascript3>",
-    choice3: "<js3>",
-    choice4: "<scripting3>",
-    answer: 4
-}
-];
+let questions = [];
+
+fetch('questions.json')
+.then(res=>{
+    console.log(res);
+    return res.json()
+}).then(loadedQuestions => {
+    console.log(loadedQuestions);
+    questions = loadedQuestions;
+    startGame();
+})
+.catch(err => {
+    console.error(err)
+});
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
@@ -46,16 +36,20 @@ startGame = () => {
     availableQuestions = [... questions];
     console.log(availableQuestions);
     getNewQuestion();
+    game.classList.remove('hidden');
+    loader.classList.add('hidden');
 };
 
 getNewQuestion = () => {
 
     if(availableQuestions.length == 0 || questionCounter > MAX_QUESTIONS){
+        localStorage.setItem('mostRecentScore', score);
+        // GO TO END PAGE
         return window.location.assign("/end.html");
     };
-    // GO TO END PAGE
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    
     // UPDATE PROGRESS BAR
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
@@ -100,5 +94,3 @@ incrementScore = num => {
     score+=num;
     scoreText.innerText = score;
 } 
-
-startGame();
