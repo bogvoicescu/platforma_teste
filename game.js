@@ -27,8 +27,8 @@ fetch('questions.json')
 });
 
 //CONSTANTS
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const CORRECT_BONUS = 1;
+const MAX_QUESTIONS = 4;
 
 startGame = () => {
     questionCounter = 0;
@@ -48,7 +48,7 @@ getNewQuestion = () => {
         return window.location.assign("/end.html");
     };
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressText.innerText = `Întrebarea ${questionCounter}/${MAX_QUESTIONS}`;
     
     // UPDATE PROGRESS BAR
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;

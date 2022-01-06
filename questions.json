@@ -21,5 +21,13 @@
     "choice3": "Carol I",
     "choice4": "Pisică",
     "answer": 4
+},
+{
+    "question": "A fost odată ca ...",
+    "choice1": "Mine",
+    "choice2": "Niciodată",
+    "choice3": "Q",
+    "choice4": "Pisică",
+    "answer": 2
 }
 ]
