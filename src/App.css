@@ -39,6 +39,16 @@
   cursor: pointer;
 }
 
+.Menu button:hover, 
+.Quiz button:hover,
+.EndScreen button:hover {
+border: solid rgb(245, 224, 42) 0.5rem;
+}
+
+.selectedAnswer{
+  background-color:rgb(245, 224, 42);
+  border-radius: 5px ;
+}
 .options {
   width:100%;;
   display:flex;
