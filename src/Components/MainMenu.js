@@ -3,6 +3,7 @@ import {QuizContext} from "../Helpers/Context";
 import "../App.css"
 import { useState } from "react";
 import { Questions } from "../Helpers/QuestionBank";
+import TopNav from "../Components/sidenav/sidenav"
 
 function MainMenu() {
     const {gameState, setGameState, test, setTest} = useContext(QuizContext);
@@ -11,7 +12,11 @@ function MainMenu() {
         setGameState("quiz");
     }
     return (
-        <div className="Menu">
+<div className="MenuContainer">
+
+            <TopNav/>
+            <div className="Menu">
+            <h2>Meniu Teste</h2>
             <button 
             onClick= {() => lista(0)} 
             >Testul 1</button>
@@ -62,7 +67,7 @@ function MainMenu() {
             >Testul 16</button>
                         <button 
             onClick= {() => lista(16)} 
-            >Testul 17</button>
+            >Testul 17</button></div>
         </div>
     );
 }

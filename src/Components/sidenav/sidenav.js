@@ -1,18 +1,20 @@
-import React from 'react';
+import {React, useState, useContext} from 'react';
 import './sidenav.css';
+import {QuizContext} from "../../Helpers/Context";
 
-function Sidenav() {
+function Topnav() {
+    const {gameState, setGameState, test, setTest} = useContext(QuizContext);
+
     return(
-        <div className="sidenav" id="sidenav">
-        <ul>  
-        <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+        <div class="topnav">
+        <ul>
+        <li onClick={() => setGameState("menu")}>Meniu Teste</li>  <a href='#'>Cumpără Ghidul Legislativ</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
   </ul>
-
-        </div>
+        
+</div>
     )
 }
 
-export default Sidenav;
+export default Topnav;

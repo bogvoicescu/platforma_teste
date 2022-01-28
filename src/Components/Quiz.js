@@ -1,6 +1,7 @@
 import React, {useState, useContext} from 'react';
 import { QuizContext } from '../Helpers/Context';
 import {Questions} from '../Helpers/QuestionBank';
+import Topnav from './sidenav/sidenav';
 
 function Quiz() {
     const {score, setScore, setGameState, test} = useContext(QuizContext);
@@ -71,7 +72,6 @@ function Quiz() {
         validate();
         setSelectD("selectedAnswer");
     }
-
     const resetAnswers = () => {
         setOptionChosen("")
         setRightA("")
@@ -84,6 +84,8 @@ function Quiz() {
         setSelectD("");
     }
     return (
+        <div className='MenuContainer'>
+        <Topnav />
         <div className="Quiz">
             <h2>{Questions[test][currQuestion].prompt}</h2>
                 <div className="options">
@@ -105,7 +107,8 @@ function Quiz() {
             <button className="nextBtn" onClick={nextQuestion}>Întrebarea Următoare</button>    
             )}
             
-        </div>
+        </div></div>
+        
     );
 }
 export default Quiz;

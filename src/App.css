@@ -6,40 +6,49 @@ body {
   /* min-height: 700px;
   height: 100%; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* flex-direction: row; */
+  /* align-items: center; */
   /* justify-content: center; */
 }
 .App {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  min-height: 800px;
 }
+.MenuContainer{
+  border: solid black;
 
+}
 .Menu, 
 .Quiz,
 .EndScreen {
-  width: 700px;
-  max-width: 100%;
+  width: 800px;
+  /* min-width:500px;
+  max-width: 800px;   */
+  min-height: 800px;
   background-color: #e4e4e4;
   display: flex; 
   flex-direction: column;
   align-items: center;
   color: black;
   padding: 10px;
-}
+  /* margin-top: 5px; */
+  margin-bottom: 5px;
+} 
+
 
 .Menu button, 
 .Quiz button,
 .EndScreen button {
-  display: flex;
+  /* display: flex; */
   padding: 5px;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   margin: 5px;
   text-align: start;
   border: solid 5px transparent;
@@ -48,7 +57,9 @@ body {
   cursor: pointer;
   background-color: white;
 }
-
+.Menu button{
+  text-align: center;
+}
 .Menu button:hover, 
 .Quiz .options button:hover,
 .EndScreen button:hover {
@@ -78,7 +89,7 @@ border: solid rgb(0, 0, 0) 5px;
 #wrong{ 
   background-color: rgb(255, 153, 153);
 }
-button.nextBtn, .EndScreen button {
+button.nextBtn, #endQuestionBtn {
   margin:30px;
   padding:10px;
   text-align: center;
@@ -91,6 +102,7 @@ button.nextBtn, .EndScreen button {
   display:flex;
   justify-content: center;
   }
+
   .Menu{
     overflow-y:scroll;
     overflow-x: hidden;
@@ -121,4 +133,11 @@ button.nextBtn, .EndScreen button {
   }
   .Quiz h2{
     align-self: flex-start;
+  }
+  .MenuContainer {
+    display: flex;
+    flex-direction:column;
+  }
+  .questionContainer{
+    margin-top: 10px;
   }
