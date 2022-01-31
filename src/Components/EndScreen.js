@@ -2,8 +2,9 @@ import React, {useState, useContext} from 'react';
 import { QuizContext } from '../Helpers/Context';
 import {Questions} from "../Helpers/QuestionBank"
 import "../App.css"
-import TopNav from "../Components/sidenav/sidenav"
-
+import TopNav from "./Nav/Nav";
+import Footer from './Nav/Footer';
+import Watermark from './Watermark/Watermark';
 
 function EndScreen() {
     const {score, setScore, setGameState, test} = useContext(QuizContext);
@@ -41,15 +42,20 @@ function EndScreen() {
     return (
 
         <div className="MenuContainer">
-        <TopNav/>
-        <div className="EndScreen">
-            <h1>Test Terminat</h1>
-            <h3>{score} / {Questions[test].length}</h3>
-        <div>
-            {questionList}
-        </div>
-            <button id='endQuestionBtn' onClick={restartQuiz}>Încearcă Din Nou</button>
-        </div>
+            <TopNav/>
+            <div className='title'>
+                <h2>{`Testul ${test+1}`}</h2>
+            </div>
+            <div className="EndScreen">
+                <h1>Test Terminat</h1>
+                <h3>{score} / {Questions[test].length}</h3>
+            <div>
+                {questionList}
+            </div>
+                <button id='endQuestionBtn' onClick={restartQuiz}>Încearcă Din Nou</button>
+            </div>
+                <Watermark />
+                <Footer/>
         </div>
     );
 }

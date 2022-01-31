@@ -1,7 +1,9 @@
 import React, {useState, useContext} from 'react';
 import { QuizContext } from '../Helpers/Context';
 import {Questions} from '../Helpers/QuestionBank';
-import Topnav from './sidenav/sidenav';
+import Nav from './Nav/Nav';
+import Footer from './Nav/Footer';
+import Watermark from "./Watermark/Watermark";
 
 function Quiz() {
     const {score, setScore, setGameState, test} = useContext(QuizContext);
@@ -37,9 +39,9 @@ function Quiz() {
             setRightD("wrong");
         }else if (Questions[test][currQuestion].answer === "B"){
             setRightB("right");
-                setRightC("wrong");            
-                setRightD("wrong");
-                setRightA("wrong");
+            setRightC("wrong");            
+            setRightD("wrong");
+            setRightA("wrong");
         }else if (Questions[test][currQuestion].answer === "C") {
             setRightC("right");
             setRightD("wrong");            
@@ -50,7 +52,7 @@ function Quiz() {
             setRightA("wrong");            
             setRightB("wrong");
             setRightC("wrong");
-        }
+        };
     }
     const selectAnswerA = () => {
         resetAnswers();
@@ -85,29 +87,35 @@ function Quiz() {
     }
     return (
         <div className='MenuContainer'>
-        <Topnav />
-        <div className="Quiz">
-            <h2>{Questions[test][currQuestion].prompt}</h2>
+            <Nav />
+            <div className='title'>
+                <h2>{`Testul ${test+1}`}</h2>
+            </div>
+            <div className="Quiz">
+                <h2>{Questions[test][currQuestion].prompt}</h2>
                 <div className="options">
 
-                    <div id="btnWrap" className={selectA} onClick={() =>    setOptionChosen("A")}>
-                    <button id={rightA} onClick={selectAnswerA}>{Questions[test][currQuestion].optionA}</button>
+                    <div id="btnWrap" className={selectA} onClick={() => setOptionChosen("A")}>
+                        <button id={rightA} onClick={selectAnswerA}>{Questions[test][currQuestion].optionA}</button>
                     </div>
-                    <div id="btnWrap" className={selectB} onClick={() =>    setOptionChosen("B")}>
+                    <div id="btnWrap" className={selectB} onClick={() => setOptionChosen("B")}>
                         <button id={rightB} onClick={selectAnswerB}>{Questions[test][currQuestion].optionB}</button>
                     </div>
-                    <div id="btnWrap" className={selectC} onClick={() =>    setOptionChosen("C")}>
+                    <div id="btnWrap" className={selectC} onClick={() => setOptionChosen("C")}>
                         <button id={rightC} onClick={selectAnswerC}>{Questions[test][currQuestion].optionC}</button>
                     </div>
-                    <div id="btnWrap" className={selectD} onClick={() =>    setOptionChosen("D")}>
+                    <div id="btnWrap" className={selectD} onClick={() => setOptionChosen("D")}>
                         <button id={rightD} onClick={selectAnswerD}>{Questions[test][currQuestion].optionD}</button>
                     </div>
                 </div>
-            {currQuestion === Questions[test].length - 1 ? (<button className="nextBtn" onClick={finishQuiz}>Termină Testul</button>) : (
-            <button className="nextBtn" onClick={nextQuestion}>Întrebarea Următoare</button>    
-            )}
+                {currQuestion === Questions[test].length - 1 ? (<button className="nextBtn" onClick={finishQuiz}>Termină Testul</button>) : (
+                <button className="nextBtn" onClick={nextQuestion}>Întrebarea Următoare</button>    
+                )}
+                <Watermark />
+            </div>
             
-        </div></div>
+            <Footer />
+        </div>
         
     );
 }
