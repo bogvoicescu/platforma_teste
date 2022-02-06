@@ -5,6 +5,8 @@ import "../App.css"
 import TopNav from "./Nav/Nav";
 import Footer from './Nav/Footer';
 import Watermark from './Watermark/Watermark';
+import logo from "./logo.png";
+
 
 function EndScreen() {
     const {score, setScore, setGameState, test} = useContext(QuizContext);
@@ -43,18 +45,18 @@ function EndScreen() {
 
         <div className="MenuContainer">
             <TopNav/>
-            <div className='title'>
-                <h2>{`Testul ${test+1}`}</h2>
-            </div>
             <div className="EndScreen">
-                <h1>Test Terminat</h1>
-                <h3>{score} / {Questions[test].length}</h3>
+            
+                <h1>{`Ai terminat Testul ${test+1}`}</h1>
+                <h1>Întrebări Corecte {score} / {Questions[test].length}</h1>
+                <h2>Răspunsuri:</h2>
+                <div className="optionsContainer">{questionList}</div>
             <div>
-                {questionList}
             </div>
-                <button id='endQuestionBtn' onClick={restartQuiz}>Încearcă Din Nou</button>
+                <button id='endQuestionBtn' onClick={restartQuiz}>Abonează-te la versiunea completă</button>
+            <Watermark />
             </div>
-                <Watermark />
+                
                 <Footer/>
         </div>
     );

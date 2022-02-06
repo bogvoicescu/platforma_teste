@@ -4,6 +4,11 @@
   overflow: hidden;
   font-weight: bold;
   z-index: 1;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Style the links inside the navigation bar */
@@ -29,5 +34,14 @@
 }
 ul{
   list-style-type: none;
+  margin: 0px;
+  margin-left:3px;
+  padding:0;
+}
+.testNr{
+  justify-self: flex-end;
+  color: rgb(0, 146, 243);
+  max-width: 100%;
+  padding: 15px;
   margin: 0;
 }

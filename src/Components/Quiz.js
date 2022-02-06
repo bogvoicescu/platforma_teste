@@ -4,6 +4,8 @@ import {Questions} from '../Helpers/QuestionBank';
 import Nav from './Nav/Nav';
 import Footer from './Nav/Footer';
 import Watermark from "./Watermark/Watermark";
+import logo from "./logo.png";
+
 
 function Quiz() {
     const {score, setScore, setGameState, test} = useContext(QuizContext);
@@ -88,12 +90,10 @@ function Quiz() {
     return (
         <div className='MenuContainer'>
             <Nav />
-            <div className='title'>
-                <h2>{`Testul ${test+1}`}</h2>
-            </div>
             <div className="Quiz">
-                <h2>{Questions[test][currQuestion].prompt}</h2>
-                <div className="options">
+            <div className="optionsContainer"> 
+                <h2 className="question">{Questions[test][currQuestion].prompt}</h2>
+                               <div className="options"></div>
 
                     <div id="btnWrap" className={selectA} onClick={() => setOptionChosen("A")}>
                         <button id={rightA} onClick={selectAnswerA}>{Questions[test][currQuestion].optionA}</button>

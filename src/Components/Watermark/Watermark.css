@@ -7,24 +7,24 @@
     flex-wrap: wrap;
     z-index: 0;
     pointer-events: none;
-    width: 800px;
+    width:inherit;
     height: 100%;
     }
     
 .logo{
-    opacity: 0.15;
-    max-height: 3em;
+    opacity: 0.10;
+    max-height:6em;
     max-width: auto;
-        /* Safari */
-        -webkit-transform: rotate(-30deg);
-        /* Firefox */
-        -moz-transform: rotate(-30deg);
-        /* IE */
-        -ms-transform: rotate(-30deg);
-        /* Opera */
-        -o-transform: rotate(-30deg);
-        /* Internet Explorer */
-        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    /* Safari */
+    -webkit-transform: rotate(-30deg);
+    /* Firefox */
+    -moz-transform: rotate(-30deg);
+    /* IE */
+    -ms-transform: rotate(-30deg);
+    /* Opera */
+    -o-transform: rotate(-30deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
 @media screen and (max-width:900px){
     .logoWM{

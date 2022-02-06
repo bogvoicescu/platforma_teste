@@ -1,0 +1,13 @@
+.MainCat{
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.MainCatBtn{
+max-width: 400px;
+}
+.Test button{
+    text-align: center;
+}

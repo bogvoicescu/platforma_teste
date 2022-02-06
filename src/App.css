@@ -2,6 +2,9 @@ body {
   margin: 0;
   background-color: #e4e4e4;
 }
+h2{
+	font-size:25px;
+}
 .QuizContainer{
   /* min-height: 700px;
   height: 100%; */
@@ -18,32 +21,33 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  min-height: 800px;
+  min-height: 600px;
 }
 .Menu, 
 .Quiz,
 .EndScreen {
-  width: 800px;
   /* min-width:500px;
   max-width: 800px;   */
-  min-height: 800px;
+  min-height: 600px;
   background-color: #e4e4e4;
   display: flex; 
   flex-direction: column;
   align-items: center;
   color: black;
-  padding: 10px;
-  /* margin-top: 5px; */
-  margin-bottom: 5px;
+  border-left: solid #555;
+  border-right: solid #555;;
+  max-width:100%;
+  padding: 0;
+	max-height:100%;
+  padding-top: 30px;
 }
-
+.EndScreen{
+	margin:0;
+}
 .Menu button, 
 .Quiz button,
-.EndScreen button {
-  /* display: flex; */
+.EndScreen button{
   padding: 5px;
-  width: 100%;
-  /* height: 100%; */
   margin: 5px;
   text-align: start;
   border: solid 5px transparent;
@@ -51,16 +55,51 @@ body {
   font-size: 20px;
   cursor: pointer;
   background-color: white;
+  box-shadow: #555 0px 0px 5px;
+  width: 100%;
 }
-.Menu button{
+/* .Menu button{
   text-align: center;
+  max-width: 300px;
+} */
+.menuBtnContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.logare {
+  padding: 5px;
+  margin: 5px;
+  text-align: start;
+  border: solid 5px transparent;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: #555 0px 0px 5px;
+  width: 100%;
+  text-align: center;
+  max-width: 300px;
+  text-decoration: none;
+  color: #333;
+}
+.logare:hover {
+border: solid rgb(0, 0, 0) 5px;
+}
+.title > h2{
+	color: white;	
+	margin: 15px;
 }
 .Menu button:hover, 
 .Quiz .options button:hover,
 .EndScreen button:hover {
 border: solid rgb(0, 0, 0) 5px;
 }
-
+#footer > p{
+	margin:0;
+	opacity:70%;
+}
 .selectedAnswer{
   background-color:rgb(0, 0, 0);
   border-radius: 10px ;
@@ -86,12 +125,16 @@ border: solid rgb(0, 0, 0) 5px;
 #wrong{ 
   background-color: rgb(255, 153, 153);
 }
+
 button.nextBtn, #endQuestionBtn {
   margin:30px;
   padding:10px;
   text-align: center;
   justify-content: center;
   align-self: center;
+}
+#endQuestionBtn, .nextBtn{
+  max-width:400px;
 }
 
   #btnWrap{
@@ -103,18 +146,18 @@ button.nextBtn, #endQuestionBtn {
   .Menu{
     overflow-y:scroll;
     overflow-x: hidden;
-    max-height: 60vh;
+    /* max-height: 60vh; */
     margin:0px;
   }
   .Menu::-webkit-scrollbar,
   .Quiz::-webkit-scrollbar,
   .EndScreen::-webkit-scrollbar{
-    width: 7px;
+    width: 5px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #e4e4e4;
   }
   
   /* Handle */
@@ -132,12 +175,17 @@ button.nextBtn, #endQuestionBtn {
   .MenuContainer {
     display: flex;
     flex-direction:column;
-    border: solid black;
     border-top: 0px;
     border-bottom: 0px;
+    width:100%;
+    padding:0;
+    height:100%;
   }
   .questionContainer{
     margin-top: 10px;
+  }
+  .question{
+    margin:20px;
   }
   .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -175,10 +223,69 @@ button.nextBtn, #endQuestionBtn {
     z-index: 1;
     color: whitesmoke;
   }
-  @media screen and (max-width:900px){
-.Menu, 
-.Quiz,
-.EndScreen {
-  width: inherit;
-} 
+
+@media screen and (max-width:900) {
+  .optionsContainer{
+    padding: 0px;
   }
+}
+.Offer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px 0px 20px 0px;
+}
+.subscription {
+  /* width:200px; */
+  max-width:220px;
+  min-height:200px;
+  padding:10px;
+  margin: 10px;
+  /* border: solid 2px ; */
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: #555 0px 0px 5px;
+  transition: all .2s ease-in-out;
+}
+.subscription:hover { 
+    transform: scale(1.03); 
+  box-shadow: rgb(32, 32, 32) 0px 0px 15px;
+}
+.subscription * {
+  margin:0 0 10px 0;
+}
+.price{
+  color: rgb(0, 40, 170);;
+}
+.discount{
+  color: rgb(52, 218, 2);
+}
+.price, .discount{
+	font-weight:bold;
+}
+.optionsContainer{
+  padding: 0px;
+  width: 100%;
+  max-width: 800px;
+}
+.question{
+max-width: 800px;
+justify-self: center;
+}
+.menuDescription li{
+  list-style-type: disc;
+  margin: 10px;
+}
+.menuDescription{
+  width: auto;
+  color: #333;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: #555 0px 0px 5px;
+  padding:20px;
+  margin: 0px 10px 20px 10px;
+}
