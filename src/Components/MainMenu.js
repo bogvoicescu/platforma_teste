@@ -19,13 +19,17 @@ function MainMenu() {
     return (
 <div className="MenuContainer">
 
-    <Nav/>
-    <div className="Menu">
+    {/* <Nav/> */}
+    <div className="Menu mainMenuMar">
         <div className='MainCat'>
-            <button onClick= {() => setGameState("cati")} className='MainCatBtn'><b>Cap. I.</b> Legislație specifică M.A.I.</button>
-            <button onClick= {() => setGameState("catii")} className='MainCatBtn'><b>Cap. II.</b> Instituții politice ale statului</button>
-            <button onClick= {() => setGameState("catiii")} className='MainCatBtn'><b>Cap. III.</b> Educație civică și cetățenească</button>
-            <button onClick= {() => setGameState("teste")} className='MainCatBtn'><b>Teste Grilă</b></button>
+        <img src="https://devinopolitist-grile.ro/wp-content/uploads/2022/02/cropped-devinopolitist-logo-small-full.png"></img>
+            <h2>Verifică-ți cunoștințele</h2>
+            <button onClick= {() => setGameState("teste")} className='MainCatBtn btnTeste'><b>Teste Grilă</b></button>
+            <br/>
+            <h2>Repetă legislația</h2>
+            <button onClick= {() => setGameState("cati")} className='MainCatBtn'><b>Cap. I -</b> Legislație specifică M.A.I.</button>
+            <button onClick= {() => setGameState("catii")} className='MainCatBtn'><b>Cap. II -</b> Instituții politice ale statului</button>
+            <button onClick= {() => setGameState("catiii")} className='MainCatBtn'><b>Cap. III -</b> Educație civică și cetățenească</button>
         </div>
     </div>
     <Footer />

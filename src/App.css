@@ -1,17 +1,18 @@
 body {
   margin: 0;
-  background-color: #e4e4e4;
+  background-color: #0378A6;
 }
 h2{
 	font-size:25px;
 }
+.Menu{
+  overflow-y:scroll;
+  overflow-x: hidden;
+  /* max-height: 60vh; */
+  margin:0px;
+}
 .QuizContainer{
-  /* min-height: 700px;
-  height: 100%; */
   display: flex;
-  /* flex-direction: row; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 .App {
   font-family: Arial, Helvetica, sans-serif;
@@ -25,21 +26,20 @@ h2{
 }
 .Menu, 
 .Quiz,
-.EndScreen {
-  /* min-width:500px;
-  max-width: 800px;   */
+.EndScreen{
   min-height: 600px;
-  background-color: #e4e4e4;
+  background-color: #0378A6;
   display: flex; 
   flex-direction: column;
   align-items: center;
-  color: black;
-  border-left: solid #555;
-  border-right: solid #555;;
+  color: #F2F2F2;
   max-width:100%;
   padding: 0;
 	max-height:100%;
   padding-top: 30px;
+}
+.mainMenuMar{
+  margin:0;
 }
 .EndScreen{
 	margin:0;
@@ -54,54 +54,33 @@ h2{
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
-  background-color: white;
-  box-shadow: #555 0px 0px 5px;
+  color: #0D0D0D;
+  background-color: #F2F2F2;
+  box-shadow: black 0px 0px 5px;
   width: 100%;
 }
-/* .Menu button{
-  text-align: center;
-  max-width: 300px;
-} */
 .menuBtnContainer{
   display: flex;
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
 }
-.logare {
-  padding: 5px;
-  margin: 5px;
-  text-align: start;
-  border: solid 5px transparent;
-  border-radius: 5px;
-  font-size: 20px;
-  cursor: pointer;
-  background-color: white;
-  box-shadow: #555 0px 0px 5px;
-  width: 100%;
-  text-align: center;
-  max-width: 300px;
-  text-decoration: none;
-  color: #333;
-}
-.logare:hover {
-border: solid rgb(0, 0, 0) 5px;
-}
+
 .title > h2{
-	color: white;	
+	color: #F2F2F2;	
 	margin: 15px;
 }
-.Menu button:hover, 
+/* .Menu button:hover, 
 .Quiz .options button:hover,
 .EndScreen button:hover {
-border: solid rgb(0, 0, 0) 5px;
-}
+    transform: scale(1.03); 
+  box-shadow: rgb(32, 32, 32) 0px 0px 15px;} */
 #footer > p{
 	margin:0;
 	opacity:70%;
 }
 .selectedAnswer{
-  background-color:rgb(0, 0, 0);
+  background-color:#F2F2F2;
   border-radius: 10px ;
   display: flex;
   width: 100%;
@@ -109,7 +88,6 @@ border: solid rgb(0, 0, 0) 5px;
 
 .nextBtn:hover{
   border: solid 5px transparent;
-  font-weight: bold;
 }
 
 .options {
@@ -126,7 +104,7 @@ border: solid rgb(0, 0, 0) 5px;
   background-color: rgb(255, 153, 153);
 }
 
-button.nextBtn, #endQuestionBtn {
+button.nextBtn {
   margin:30px;
   padding:10px;
   text-align: center;
@@ -136,19 +114,19 @@ button.nextBtn, #endQuestionBtn {
 #endQuestionBtn, .nextBtn{
   max-width:400px;
 }
-
+#endQuestionBtn button{
+  margin: 10px;
+}
+#endQuestionBtn{
+  margin: 10px 0px 10px 0px;
+}
   #btnWrap{
   width: 100%;
   display:flex;
   justify-content: center;
   }
 
-  .Menu{
-    overflow-y:scroll;
-    overflow-x: hidden;
-    /* max-height: 60vh; */
-    margin:0px;
-  }
+
   .Menu::-webkit-scrollbar,
   .Quiz::-webkit-scrollbar,
   .EndScreen::-webkit-scrollbar{
@@ -157,17 +135,17 @@ button.nextBtn, #endQuestionBtn {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #e4e4e4;
+    background: #0378A6;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #0378A6;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #333;
   }
   .Quiz h2{
     align-self: flex-start;
@@ -199,7 +177,7 @@ button.nextBtn, #endQuestionBtn {
   #footer {
     height:30px;
     width: 100%;
-    background-color: rgb(71, 71, 71);
+    background-color: #333;
     color: rgb(204, 204, 204);
     display: flex;
     flex-direction: column;
@@ -217,11 +195,11 @@ button.nextBtn, #endQuestionBtn {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: black solid 1px;
+    border-bottom: #0D0D0D solid 1px;
     background-color: rgb(71, 71, 71);
     box-shadow: 0px 2px 5px rgb(0, 0, 0);
     z-index: 1;
-    color: whitesmoke;
+    color: #F2F2F2;
   }
 
 @media screen and (max-width:900) {
@@ -229,44 +207,7 @@ button.nextBtn, #endQuestionBtn {
     padding: 0px;
   }
 }
-.Offer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin: 20px 0px 20px 0px;
-}
-.subscription {
-  /* width:200px; */
-  max-width:220px;
-  min-height:200px;
-  padding:10px;
-  margin: 10px;
-  /* border: solid 2px ; */
-  text-align: center;
-  text-decoration: none;
-  color: #333;
-  border-radius: 15px;
-  background-color: white;
-  box-shadow: #555 0px 0px 5px;
-  transition: all .2s ease-in-out;
-}
-.subscription:hover { 
-    transform: scale(1.03); 
-  box-shadow: rgb(32, 32, 32) 0px 0px 15px;
-}
-.subscription * {
-  margin:0 0 10px 0;
-}
-.price{
-  color: rgb(0, 40, 170);;
-}
-.discount{
-  color: rgb(52, 218, 2);
-}
-.price, .discount{
-	font-weight:bold;
-}
+
 .optionsContainer{
   padding: 0px;
   width: 100%;
@@ -284,8 +225,13 @@ justify-self: center;
   width: auto;
   color: #333;
   border-radius: 15px;
-  background-color: white;
+  background-color: #F2F2F2;
   box-shadow: #555 0px 0px 5px;
   padding:20px;
   margin: 0px 10px 20px 10px;
+}
+.btnTeste{
+text-align: center !important;}
+.Menu{
+  color: #F2F2F2;
 }

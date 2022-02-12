@@ -4,10 +4,34 @@ flex-direction: column;
 width: 100%;
 justify-content: center;
 align-items: center;
+margin-bottom: 2em;
 }
-.MainCatBtn{
+.MainCatBtn, .back{
 max-width: 400px;
 }
 .Test button{
     text-align: center;
+}
+.Test {
+    padding-top: 50px;
+}
+.Text {
+    padding: 2em;
+    padding-top: 0;
+    max-width: 900px;
+}
+button.back{
+    text-align: center;
+}
+.MainCat img{
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+    width: 400px;
+    max-width: 400px;
+}
+@media screen and (max-width:430px) {
+    #root > div > div > div > div.Menu > div > img{
+        width: 300px;
+    }
+
 }

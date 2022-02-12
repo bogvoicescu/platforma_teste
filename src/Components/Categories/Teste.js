@@ -18,8 +18,6 @@ function Teste() {
     return (
 <div className="MenuContainer">
 <Nav/>
-            <div className="title"><h2>Meniu Teste</h2>
-            </div>
             <div  className="Menu Test">
                 <button className='MainCatBtn'
             onClick= {() => lista(0)} 

@@ -13,7 +13,7 @@ function EndScreen() {
     
     const restartQuiz = () => {
         setScore(0);
-        setGameState("menu");
+        setGameState("teste");
     }
  
     const questionList = Questions[test].map(question =>
@@ -47,13 +47,15 @@ function EndScreen() {
             <TopNav/>
             <div className="EndScreen">
             
-                <h1>{`Ai terminat Testul ${test+1}`}</h1>
-                <h1>Întrebări Corecte {score} / {Questions[test].length}</h1>
+                <h1>{`Ai terminat Testul Nr.${test+1}`}</h1>
+                <h1>Întrebări Corecte: {score} / {Questions[test].length}</h1>
                 <h2>Răspunsuri:</h2>
                 <div className="optionsContainer">{questionList}</div>
             <div>
             </div>
-                <button id='endQuestionBtn' onClick={restartQuiz}>Abonează-te la versiunea completă</button>
+            <div id="endQuestionBtn"><button className="nextBtn" onClick={restartQuiz}>Înapoi la Teste</button>
+                <button className="nextBtn" onClick={()=>setGameState("menu")}>Înapoi la Meniul Principal</button></div>
+                
             <Watermark />
             </div>
                 
