@@ -23,14 +23,7 @@ function CatI4() {
     <strong></strong>
 </p>
 <p align="center">
-    <strong>Organizarea, func</strong>
-    <strong>ț</strong>
-    <strong>ionarea </strong>
-    <strong>ș</strong>
-    <strong>i atribu</strong>
-    <strong>ț</strong>
-    <strong>iile</strong>
-    <strong>Jandarmeriei Române</strong>
+    <strong>Organizarea, funcționarea și atribuțiile Jandarmeriei Române</strong>
 </p>
 <p align="center">
     <strong>Dispoziţii generale</strong>
