@@ -14,9 +14,8 @@ function CatI7() {
         <div className="Menu">
         <div className="Text">
         <h2 align="center">
-    <a name="_Toc93153292">
+
         Legea nr. 80 din 11 iulie 1995 privind statutul cadrelor militare.
-    </a>
 </h2>
 <h2 align="center">
 </h2>
@@ -33,7 +32,7 @@ function CatI7() {
     </p>
 </div>
 <h3 align="center">
-    <a name="_Toc93153293">Dispoziţii generale</a>
+Dispoziţii generale
 </h3>
 <p align="center">
     <strong>Articolul 1</strong>
@@ -292,8 +291,7 @@ function CatI7() {
     beneficia de drepturi suplimentare conferite de această calitate.
 </p>
 <h3 align="center">
-    <a name="_Toc89634266"></a>
-    <a name="_Toc93153294">Îndatoriri</a>
+Îndatoriri
 </h3>
 <p align="center">
     <strong>Articolul 8</strong>
@@ -368,8 +366,7 @@ function CatI7() {
     f) în caz de calamităţi naturale.
 </p>
 <h3 align="center">
-    <a name="_Toc89634267"></a>
-    <a name="_Toc93153295">Drepturi</a>
+Drepturi
 </h3>
 <p align="center">
     <strong>Articolul 9</strong>
@@ -869,10 +866,7 @@ function CatI7() {
     militară se stabilesc prin regulamente militare.
 </p>
 <h3 align="center">
-    <a name="_Toc89634268"></a>
-    <a name="_Toc93153296">
         Interzicerea sau restrângerea exerciţiului unor drepturi şi libertăţi
-    </a>
 </h3>
 <p align="center">
     <strong>Articolul 28</strong>

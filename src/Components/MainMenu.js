@@ -22,9 +22,9 @@ function MainMenu() {
     {/* <Nav/> */}
     <div className="Menu mainMenuMar">
         <div className='MainCat'>
-        <img src="https://devinopolitist-grile.ro/wp-content/uploads/2022/02/cropped-devinopolitist-logo-small-full.png"></img>
+        <img alt='logo' src="https://devinopolitist-grile.ro/wp-content/uploads/2022/02/cropped-devinopolitist-logo-small-full.png"></img>
             <h2>Verifică-ți cunoștințele</h2>
-            <button onClick= {() => setGameState("teste")} className='MainCatBtn btnTeste'><b>Teste Grilă</b></button>
+            <button onClick= {() => setGameState("testlist")} className='MainCatBtn btnTeste'><b>Teste Grilă</b></button>
             <br/>
             <h2>Repetă legislația</h2>
             <button onClick= {() => setGameState("cati")} className='MainCatBtn'><b>Cap. I -</b> Legislație specifică M.A.I.</button>

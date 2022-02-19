@@ -342,22 +342,18 @@ const CatIII1p1 = () => {
 </p>
 <p>
     1.
-    <a name="_Hlk89080840">
         Orice persoană are îndatoriri faţă de colectivitate, deoarece numai în
         cadrul acesteia este posibilă dezvoltarea liberă şi deplină a
         personalităţii sale.
-    </a>
 </p>
 <p>
     2.
-    <a name="_Hlk89080865">
         În exercitarea drepturilor şi libertăţilor sale, fiecare om nu este
         supus decât numai îngrădirilor stabilite prin lege, exclusiv în scopul
         de a asigura cuvenită recunoaştere şi respectare a drepturilor şi
         libertăţilor altora şi ca să fie satisfăcute justele cerinţe ale
         moralei, ordinii publice şi bunăstării generale într-o societate
         democratică.
-    </a>
 </p>
 <p>
     3. Aceste drepturi şi libertăţi nu vor putea fi în nici un caz exercitate

@@ -14,8 +14,7 @@ function CatII2() {
         <div className="Menu">
         <div className="Text">
         <h2 align="center">
-    <a name="_Toc93153306">Pre</a>
-    ședintele
+Președintele
 </h2>
 <p>
     Preşedintele României reprezintă statul român, este garantul independentei

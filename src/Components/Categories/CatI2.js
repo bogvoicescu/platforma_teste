@@ -404,9 +404,8 @@ function CatI2() {
     <strong>Articolul 26</strong>
 </p>
 <p>
-    <a name="_Hlk92659038">
         (1) Poliţia Română are următoarele atribuţii principale:
-    </a>
+
 </p>
 <p>
     1. apără viaţa, integritatea corporală şi libertatea persoanelor,

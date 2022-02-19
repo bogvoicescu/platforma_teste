@@ -14,13 +14,10 @@ function CatII3() {
         <div className="Menu">
         <div className="Text">
         <h2 align="center">
-    <a name="_Toc93153308">Guvernul</a>
+Guvernul
 </h2>
 <p>
-    <a name="_Hlk92661417"><strong>Rolul </strong></a>
-    <strong>ș</strong>
-    <strong>i structura</strong>
-    <strong></strong>
+    <strong>Rolul și structura</strong>
 </p>
 <p>
     Guvernul, potrivit programului sau de guvernare acceptat de Parlament,

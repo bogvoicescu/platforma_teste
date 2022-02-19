@@ -14,15 +14,10 @@ function CatII5() {
         <div className="Menu">
         <div className="Text">
         <h2 align="center">
-    <a name="_Toc93153310">Autoritatea judecătorească</a>
+Autoritatea judecătorească
 </h2>
 <p>
-    <a name="_Toc89634278"><strong>Instan</strong></a>
-    <strong>ț</strong>
-    <strong>ele judecătore</strong>
-    <strong>ș</strong>
-    <strong>ti</strong>
-    <strong></strong>
+    <strong>Instanțele judecătorești</strong>
 </p>
 <p>
     Justiţia se înfăptuieşte în numele legii, fiind unică, imparțială şi egală

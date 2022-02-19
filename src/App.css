@@ -59,6 +59,7 @@ h2{
   box-shadow: black 0px 0px 5px;
   width: 100%;
 }
+
 .menuBtnContainer{
   display: flex;
   justify-content: center;
@@ -98,10 +99,10 @@ h2{
   align-items: flex-start;
 }
 #right{
-  background-color: rgb(198, 255, 92);
+  background-color: rgb(150, 194, 67);
 }
 #wrong{ 
-  background-color: rgb(255, 153, 153);
+  background-color: rgb(245, 101, 101);
 }
 
 button.nextBtn {

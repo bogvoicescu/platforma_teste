@@ -142,11 +142,7 @@ const CatIII2p1 = () => {
     (4) Jurisdictiile speciale administrative sunt facultative şi gratuite.
 </p>
 <h2 align="center">
-    <a name="_Toc89634281"></a>
-    <a name="_Toc93153314">
         <strong>Drepturile şi libertăţile fundamentale</strong>
-    </a>
-    <strong></strong>
 </h2>
 <p align="center">
     <strong>Articolul 22</strong>
@@ -424,7 +420,7 @@ const CatIII2p1 = () => {
     asupra activităţii lor se reglementează prin lege organică.
 </p>
 <p align="center">
-    <a name="_Hlk92661479"><strong>Articolul 32</strong></a>
+<strong>Articolul 32</strong>
 </p>
 <p align="center">
     <strong>Dreptul la învăţătură</strong>
@@ -951,9 +947,7 @@ const CatIII2p1 = () => {
     drepturile şi libertăţile celorlalţi.
 </p>
 <h2 align="center">
-    <a name="_Toc89634282"></a>
-    <a name="_Toc93153315"><strong>Avocatul Poporului</strong></a>
-    <strong></strong>
+<strong>Avocatul Poporului</strong>
 </h2>
 <p align="center">
     <strong>Articolul 58</strong>

@@ -17,22 +17,11 @@ const CatIII2p2 = () => {
     (Capitolul I și capitolul II – art. 6-15)
 </p>
 <h2 align="center">
-    <a name="_Toc93153318">Prevenirea </a>
-    și sancționarea tuturor formelor de discriminare
+Prevenirea și sancționarea tuturor formelor de discriminare
 </h2>
-<p>
-    <a name="_Toc89634287"></a>
-</p>
 <div>
     <p>
-        <em>În cadrul acestui capitol, vor fi expuse prevederi din Ordonan</em>
-        <em>ț</em>
-        <em>a Guvernului 137/200 privind prevenirea </em>
-        <em>ș</em>
-        <em>i sanc</em>
-        <em>ț</em>
-        <em>
-            ionarea tuturor formelor de discriminare, republicată, cu
+        <em>În cadrul acestui capitol, vor fi expuse prevederi din Ordonanța Guvernului 137/200 privind prevenirea și sancționarea tuturor formelor de discriminare, republicată, cu
             modificările
         </em>
         <em>ș</em>
@@ -152,9 +141,7 @@ const CatIII2p2 = () => {
     <strong>Articolul 2</strong>
 </p>
 <p>
-    (1) Potrivit prezentei ordonanţe, prin discriminare se înţelege
-    <a name="_Hlk89081211">
-        orice deosebire, excludere, restricţie sau preferinţă, pe bază de rasă,
+    (1) Potrivit prezentei ordonanţe, prin discriminare se înţelege orice deosebire, excludere, restricţie sau preferinţă, pe bază de rasă,
         naţionalitate, etnie, limbă, religie, categorie socială, convingeri,
         sex, orientare sexuală, vârstă, handicap, boală cronică necontagioasă,
         infectare HIV, apartenenţă la o categorie defavorizată, precum şi orice
@@ -163,7 +150,6 @@ const CatIII2p2 = () => {
         drepturilor omului şi a libertăţilor fundamentale sau a drepturilor
         recunoscute de lege, în domeniul politic, economic, social şi cultural
         sau în orice alte domenii ale vieţii publice.
-    </a>
 </p>
 <p>
     (2) Dispoziţia de a discrimina persoanele pe oricare dintre temeiurile
@@ -188,17 +174,14 @@ const CatIII2p2 = () => {
 </p>
 <p>
     (5) Constituie hărţuire şi se sancţionează contravenţional
-    <a name="_Hlk89083237">
         orice comportament pe criteriu de rasă, naţionalitate, etnie, limbă,
         religie, categorie socială, convingeri, gen, orientare sexuală,
         apartenenţă la o categorie defavorizată, vârstă, handicap, statut de
         refugiat ori azilant sau orice alt criteriu care duce la crearea unui
         cadru intimidant, ostil, degradant ori ofensiv.
-    </a>
 </p>
 <p>
     (5^1) Constituie hărţuire morală la locul de muncă şi
-    <a name="_Hlk89083420">
         se sancţionează disciplinar, contravenţional sau penal, după caz, orice
         comportament exercitat cu privire la un angajat de către un alt angajat
         care este superiorul său ierarhic, de către un subaltern şi/sau de
@@ -208,7 +191,6 @@ const CatIII2p2 = () => {
         demnităţii angajatului, prin afectarea sănătăţii sale fizice sau
         mentale ori prin compromiterea viitorului profesional al acestuia,
         comportament manifestat în oricare dintre următoarele forme:
-    </a>
 </p>
 <p>
     a) conduită ostilă sau nedorită;
@@ -221,14 +203,12 @@ const CatIII2p2 = () => {
 </p>
 <p>
     (5^2)
-    <a name="_Hlk89083484">
         Constituie hărţuire morală la locul de muncă orice comportament care,
         prin caracterul său sistematic, poate aduce atingere demnităţii,
         integrităţii fizice ori mentale a unui angajat sau grup de angajaţi,
         punând în pericol munca lor sau degradând climatul de lucru. În
         înţelesul prezentei legi, stresul şi epuizarea fizică intră sub
         incidenţa hărţuirii morale la locul de muncă.
-    </a>
 </p>
 <p>
     (5^3) Fiecare angajat are dreptul la un loc de muncă lipsit de acte de
@@ -325,13 +305,13 @@ const CatIII2p2 = () => {
     orientare, formare şi perfecţionare profesională;
 </p>
 <p>
-    b) <a name="_Hlk89083819">protecţia şi securitatea socială</a>;
+    b) protecţia şi securitatea socială;
 </p>
 <p>
     c) serviciile publice sau alte servicii, accesul la bunuri şi facilităţi;
 </p>
 <p>
-    d) <a name="_Hlk89083827">sistemul educaţional;</a>
+    d) sistemul educaţional;
 </p>
 <p>
     e) asigurarea libertăţii de circulaţie;
@@ -364,8 +344,7 @@ const CatIII2p2 = () => {
     legitim şi cerinţa proporţională.
 </p>
 <p align="center">
-    <a name="_Toc89634288"><strong>Dispoziţii speciale</strong></a>
-    <strong></strong>
+    <strong>Dispoziţii speciale</strong>
 </p>
 <p align="center">
     <strong>Articolul 6</strong>
@@ -382,7 +361,7 @@ const CatIII2p2 = () => {
     <strong>Articolul 7</strong>
 </p>
 <p>
-    <a name="_Hlk89084019">
+   
         Constituie contravenţie, conform prezentei ordonanţe, discriminarea
         unei persoane pentru motivul că aparţine unei anumite rase,
         naţionalităţi, etnii, religii, categorii sociale sau unei categorii
@@ -390,7 +369,6 @@ const CatIII2p2 = () => {
         orientării sexuale a acesteia, într-un raport de muncă şi protecţie
         socială, cu excepţia cazurilor prevăzute de lege, manifestată în
         următoarele domenii:
-    </a>
 </p>
 <p>
     a) încheierea, suspendarea, modificarea sau încetarea raportului de muncă;
@@ -459,13 +437,10 @@ const CatIII2p2 = () => {
     promovate de ei.
 </p>
 <p align="center">
-    <a name="_Toc89634289">
         <strong>
             Accesul la serviciile publice administrative şi juridice, de
             sănătate, la alte servicii, bunuri şi facilităţi
         </strong>
-    </a>
-    <strong></strong>
 </p>
 <p align="center">
     <strong>Articolul 10</strong>
@@ -516,8 +491,7 @@ const CatIII2p2 = () => {
     drepturi sau facilităţi.
 </p>
 <p align="center">
-    <a name="_Toc89634290"><strong>Accesul la educaţie</strong></a>
-    <strong></strong>
+<strong>Accesul la educaţie</strong>
 </p>
 <p align="center">
     <strong>Articolul 11</strong>
@@ -571,44 +545,35 @@ const CatIII2p2 = () => {
     cadrul legislativ în vigoare.
 </p>
 <p align="center">
-    <a name="_Toc89634291">
         <strong>
             Libertatea de circulaţie, dreptul la libera alegere a domiciliului
             şi accesul în locurile publice
         </strong>
-    </a>
-    <strong></strong>
 </p>
 <p align="center">
     <strong>Articolul 12</strong>
 </p>
 <p>
     (1) Constituie contravenţie, conform prezentei ordonanţe,
-    <a name="_Hlk89084277">
         orice acţiuni constând în ameninţări, constrângeri, folosirea forţei
         sau orice alte mijloace de asimilare, strămutare sau colonizare de
         persoane, în scopul modificării compoziţiei etnice, rasiale sau sociale
         a unei zone a ţării sau a unei localităţi.
-    </a>
 </p>
 <p>
     (2) Constituie contravenţie, conform prezentei ordonanţe,
-    <a name="_Hlk89084289">
         orice comportament constând în determinarea părăsirii domiciliului, în
         deportare sau în îngreunarea condiţiilor de viaţă şi de trai cu scopul
         de a se ajunge la renunţarea la domiciliul tradiţional al unei persoane
         sau al unui grup de persoane aparţinând unei anumite rase,
         naţionalităţi, etnii sau religii, respectiv al unei comunităţi, fără
         acordul acestora.
-    </a>
     Constituie o încălcare a prevederilor prezentei ordonanţe atât
-    <a name="_Hlk89084299">
         obligarea unui grup de persoane aflate în minoritate de a părăsi
         localitatea, aria sau zonele în care locuieşte, cât şi obligarea unui
         grup de persoane aparţinând majorităţii de a se stabili în localităţi,
         arii sau zone locuite de o populaţie aparţinând minorităţilor
         naţionale.
-    </a>
 </p>
 <p align="center">
     <strong>Articolul 13</strong>
@@ -633,8 +598,7 @@ const CatIII2p2 = () => {
     în cauză.
 </p>
 <p align="center">
-    <a name="_Toc89634292"><strong>Dreptul la demnitatea personală</strong></a>
-    <strong></strong>
+<strong>Dreptul la demnitatea personală</strong>
 </p>
 <p align="center">
     <strong>Articolul 15</strong>

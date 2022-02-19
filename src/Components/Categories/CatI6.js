@@ -14,10 +14,8 @@ function CatI6() {
         <div className="Menu">
         <div className="Text">
         <h3 align="center">
-    <a name="_Toc93153284">
-        LEGE nr. 360 din 6 iunie 2002 privind Statutul poli
-    </a>
-    țistului
+ 
+        LEGE nr. 360 din 6 iunie 2002 privind Statutul polițistului
 </h3>
 <h3 align="center">
 </h3>
@@ -2111,8 +2109,7 @@ situaţie, procedura administrativă prealabilă prevăzută la    <u>art. 7 din
     demnitarului, poliţistul este numit în postul rezervat.
 </p>
 <h3 align="center">
-    <a name="_Toc89634261"></a>
-    <a name="_Toc93153285">Drepturile poliţistului</a>
+Drepturile poliţistului
 </h3>
 <p>
     <strong>Articolul 28</strong>
@@ -2480,8 +2477,7 @@ situaţie, procedura administrativă prealabilă prevăzută la    <u>art. 7 din
     sau în legătură cu acestea.
 </p>
 <h3 align="center">
-    <a name="_Toc89634262"></a>
-    <a name="_Toc93153286">Îndatoririle poliţistului</a>
+Îndatoririle poliţistului
 </h3>
 <p align="center">
     <strong>Articolul 41</strong>
@@ -2637,10 +2633,7 @@ situaţie, procedura administrativă prealabilă prevăzută la    <u>art. 7 din
     specificul şi necesităţile unităţii.
 </p>
 <h3 align="center">
-    <a name="_Toc89634263"></a>
-    <a name="_Toc93153287">
         Restrângerea exerciţiului unor drepturi şi libertăţi
-    </a>
 </h3>
 <p align="center">
     <strong>Articolul 45</strong>
@@ -2717,8 +2710,7 @@ situaţie, procedura administrativă prealabilă prevăzută la    <u>art. 7 din
     îndatoririlor de serviciu.
 </p>
 <h3 align="center">
-    <a name="_Toc89634264"></a>
-    <a name="_Toc93153288">Corpul Naţional al Poliţiştilor</a>
+Corpul Naţional al Poliţiştilor
 </h3>
 <p align="center">
     <strong>Articolul 49</strong>
@@ -2848,8 +2840,7 @@ situaţie, procedura administrativă prealabilă prevăzută la    <u>art. 7 din
     hotărâre a Guvernului.
 </p>
 <h3 align="center">
-    <a name="_Toc93153289">Recompense, răspunderea juridică şi sancţiuni</a>
-    <strong></strong>
+Recompense, răspunderea juridică şi sancţiuni
 </h3>
 <p align="center">
     <strong>Recompense</strong>
@@ -3845,9 +3836,7 @@ situaţie, procedura administrativă prealabilă prevăzută la    <u>art. 7 din
     Abrogat.
 </p>
 <h3 align="center">
-    <a name="_Toc93153290">
         Încetarea raporturilor de serviciu ale poliţiştilor
-    </a>
 </h3>
 <p align="center">
     <strong>Articolul 66</strong>
@@ -4055,7 +4044,7 @@ situaţie, procedura administrativă prealabilă prevăzută la    <u>art. 7 din
     <strong>Capitolul VI</strong>
 </p>
 <h3 align="center">
-    <a name="_Toc93153291">Dispoziţii finale şi tranzitorii</a>
+Dispoziţii finale şi tranzitorii
 </h3>
 <p align="center">
     <strong>Articolul 71</strong>

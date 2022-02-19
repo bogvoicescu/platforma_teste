@@ -336,13 +336,7 @@ const CatIII1p2 = () => {
 </p>
 <p>
     Exercitarea drepturilor şi libertăţilor recunoscute de prezenta convenţie
-    trebuie sa fie
-    <a name="_Hlk89081353">
-        asigurată fără nici o deosebire bazată, în special, pe sex, rasa,
-        culoare, limba, religie, opinii politice sau orice alte opinii, origine
-        naţională sau socială, apartenenţa la o minoritate naţională, avere,
-        naştere sau orice altă situaţie.
-    </a>
+    trebuie sa fie asigurată fără nici o deosebire bazată, în special, pe sex, rasa, culoare, limba, religie, opinii politice sau orice alte opinii, origine naţională sau socială, apartenenţa la o minoritate naţională, avere naştere sau orice altă situaţie.
 </p>
 <p align="center">
     <strong>Articolul 15</strong>

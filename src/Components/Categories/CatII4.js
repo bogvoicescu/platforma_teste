@@ -14,8 +14,7 @@ function CatII4() {
         <div className="Menu">
         <div className="Text">
         <h2 align="center">
-    <a name="_Toc93153309">Administra</a>
-    ția publică
+Administrația publică
 </h2>
 <p align="center">
     <strong></strong>

@@ -14,7 +14,7 @@ function CatII1() {
         <div className="Menu">
         <div className="Text">
         <h2 align="center">
-    <a name="_Toc93153307">Parlamentul</a>
+Parlamentul
 </h2>
 <p>
     Puterea legislativă este reprezentantă de Parlament. Acesta este organul

@@ -53,12 +53,16 @@ function EndScreen() {
                 <div className="optionsContainer">{questionList}</div>
             <div>
             </div>
-            <div id="endQuestionBtn"><button className="nextBtn" onClick={restartQuiz}>Înapoi la Teste</button>
-                <button className="nextBtn" onClick={()=>setGameState("menu")}>Înapoi la Meniul Principal</button></div>
+            <div id="endQuestionBtn">
+            <button className="nextBtn" onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://devinopolitist-grile.ro/teste-admitere-mai';}}>Înapoi la Teste</button>
+                <button className="nextBtn" onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://devinopolitist-grile.ro/grile-admitere-mai/';}}>Înapoi la Meniul Principal</button></div>
                 
             <Watermark />
             </div>
-                
                 <Footer/>
         </div>
     );
