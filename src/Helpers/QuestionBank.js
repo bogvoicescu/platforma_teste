@@ -435,7 +435,7 @@ const Test5 = [{
     optionB: "b)	care au împlinit, până în ziua alegerilor inclusiv, vârsta de cel puțin 33 de ani;",
     optionC: "c)	care au împlinit, până în ziua alegerilor inclusiv, vârsta de cel puțin 38 de ani;",
     optionD: "d)	care au împlinit, până în ziua alegerilor inclusiv, vârsta de cel puțin 30 de ani.",
-    answer: "A ",
+    answer: "A",
     explanation:"*Explicatie",
 },
 {
@@ -719,7 +719,7 @@ const Test8 = [{
     optionA: "a)	înaintarea în gradul următor, în mod excepţional;",
     optionB: "b)	înaintarea în gradul următor, înainte de termen;",
     optionC: "c)	portul permanent al armamentului din dotare sau achiziţionat personal;",
-    optionD: "",
+    optionD: "d)	conferirea de medalii, ordine şi semne onorifice;",
     answer: "C",
     explanation:"*Explicatie",
 },
@@ -1705,7 +1705,7 @@ const Test19 = [{
     optionB: "b)	să informeze de îndată structura de resurse umane a unităţii din care face parte despre dobândirea calităţii procesuale de învinuit sau inculpat;",
     optionC: "c)	să dovedească solicitudine şi respect faţă de orice persoană, în special faţă de grupurile vulnerabile;",
     optionD: "d)	să folosească forţa, altfel decât în condiţiile legii.",
-    answer: "",
+    answer: "D",
     explanation:"*Explicatie",
 },
 {
@@ -2147,7 +2147,7 @@ const Test24 = [{
     optionB: "b)    3 ani;",
     optionC: "c)    4 ani;",
     optionD: "d)    5 ani;",
-    answer: "",
+    answer: "D",
     explanation:"*Explicatie",
 },
 {
@@ -2385,7 +2385,7 @@ const Test26 = [{
     optionB: "b)	depozitării materialelor provenite din confiscările făcute de personalul Jandarmeriei Române;",
     optionC: "c)	aprovizionării, depozitării, conservării şi distribuirii bunurilor materiale, mentenanţei armamentului şi tehnicii necesare Jandarmeriei Române, pe timp de război;",
     optionD: "d)	drepturilor bănești și materiale ale personalului Jandarmeriei Române;",
-    answer: "",
+    answer: "A",
     explanation:"*Explicatie",
 }
 ]
@@ -4409,7 +4409,7 @@ const Test48 = [{
     optionB: "b)	ONU şi cu aprobarea Parlamentului",
     optionC: "c)	Preşedintelui României şi cu aprobarea Parlamentului",
     optionD: "d)	UE şi cu aprobarea Guvernului",
-    answer: "",
+    answer: "C",
     explanation:"*Explicatie",
 }
 ]
@@ -4793,7 +4793,7 @@ const Test53 = [{
 },
 {
     prompt: "2. Pe timp de pace, cadrul militar care a solicitat să îşi urmeze soţia sau soţul trimis în străinătate de către Ministerul Afacerilor Externe, de alte ministere, autorităţi administrative autonome, organe ori alte instituţii de specialitate ale administraţiei publice centrale, pentru îndeplinirea unei misiuni permanente în străinătate la misiunile diplomatice, la oficiile consulare sau la alte reprezentanţe naţionale, structuri şi comandamente din cadrul organizaţiilor internaţionale din care România face parte, pentru o perioadă mai mare de 6 luni, are dreptul la concedii fără plată pe o durată de cel mult:",
-    optionA: "a)	1 an; ",
+    optionA: "a)	1 an;",
     optionB: "b)	2 ani;",
     optionC: "c)	4 ani;",
     optionD: "d)	5 ani.",
@@ -5115,7 +5115,7 @@ const Test56 = [{
     prompt: "7. În situația în care cadrele militare au fost selectate pentru a ocupa temporar posturi în structurile din cadrul organizațiilor internaționale din care România face parte, în baza aprobării prealabile a ministrului apărării naționale aud reptul la concediul fără plată pe o perioadă de cel mult:",
     optionA: "a)	1 an;",
     optionB: "b)	2 ani;",
-    optionC: "c)	3 ani; ",
+    optionC: "c)	3 ani;",
     optionD: "d)	4 ani.",
     answer: "D",
     explanation:"*Explicatie",

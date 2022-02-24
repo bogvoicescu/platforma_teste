@@ -51,7 +51,7 @@ h2{
   margin: 5px;
   text-align: start;
   border: solid 5px transparent;
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 20px;
   cursor: pointer;
   color: #0D0D0D;
@@ -82,7 +82,7 @@ h2{
 }
 .selectedAnswer{
   background-color:#F2F2F2;
-  border-radius: 10px ;
+  border-radius: 4px ;
   display: flex;
   width: 100%;
 }
