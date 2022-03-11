@@ -1,16 +1,13 @@
 import React, { useContext } from "react";
 import {QuizContext} from "../../../Helpers/Context";
 import "../../../App.css";
-import { useState } from "react";
-import { Questions } from "../../../Helpers/QuestionBank";
 import Nav from "../../Nav/Nav";
 import Footer from "../../Nav/Footer";
-import logo from "../../logo.png";
 import "../MainCat.css";
 
 
 function T1to10() {
-    const {gameState, setGameState, test, setTest} = useContext(QuizContext);
+    const {setGameState, setTest} = useContext(QuizContext);
     const lista = (nr) => {
         setTest(nr)
         setGameState("quiz");

@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React, {useContext} from 'react';
 import { QuizContext } from '../../Helpers/Context';
 import "./MainCat.css";
 import "../../App.css"
@@ -6,7 +6,7 @@ import Nav from '../Nav/Nav';
 import Footer from '../Nav/Footer';
 
 function TestList() {
-    const { score, setScore, setGameState, test } = useContext(QuizContext);
+    const { setGameState} = useContext(QuizContext);
     return (
         <div className="MenuContainer">
 
@@ -20,8 +20,11 @@ function TestList() {
                     <button onClick={() => setGameState("t41to50")} className='MainCatBtn'>Testele 41 - 50</button>
                     <button onClick={() => setGameState("t51to60")} className='MainCatBtn'>Testele 51 - 60</button>
                     <button onClick={() => setGameState("t61to70")} className='MainCatBtn'>Testele 61 - 70</button>
+                    {/* <button onClick={() => setGameState("api")} className='MainCatBtn'>Api Contul Meu</button> */}
                 </div>
-                <button onClick={() => setGameState("menu")} className='back'>Înapoi</button>
+                <button className="nextBtn" onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://devinopolitist-grile.ro/grile-admitere-mai/';}}>Înapoi</button>
             </div>
             <Footer />
         </div>

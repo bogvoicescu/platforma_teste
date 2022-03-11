@@ -1,11 +1,10 @@
-import React, {useState, useContext} from 'react';
+import React, { useContext} from 'react';
 import { QuizContext } from '../../Helpers/Context';import "./MainCat.css";
 import Nav from '../Nav/Nav';
 import Footer from '../Nav/Footer';
 
 const CatIII1p2 = () => {
-    const {score, setScore, setGameState, test} = useContext(QuizContext);
-    return (
+    const {setGameState} = useContext(QuizContext);    return (
         <div className="MenuContainer">
             <Nav/>
             <div className="Menu">

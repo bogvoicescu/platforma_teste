@@ -1,24 +1,23 @@
-import React, {useState, useContext} from 'react';
+import React, { useContext} from 'react';
 import { QuizContext } from '../Helpers/Context';
 import {Questions} from "../Helpers/QuestionBank"
 import "../App.css"
 import TopNav from "./Nav/Nav";
 import Footer from './Nav/Footer';
 import Watermark from './Watermark/Watermark';
-import logo from "./logo.png";
 
 
 function EndScreen() {
-    const {score, setScore, setGameState, test} = useContext(QuizContext);
+    const {score, test} = useContext(QuizContext);
     
-    const restartQuiz = () => {
-        setScore(0);
-        setGameState("teste");
-    }
+    // const restartQuiz = () => {
+    //     setScore(0);
+    //     setGameState("teste");
+    // }
  
     const questionList = Questions[test].map(question =>
     
-    <div>
+    <div key={question.prompt}>
     <hr></hr>
     <h2>{question.prompt}</h2>
         <div className="options">

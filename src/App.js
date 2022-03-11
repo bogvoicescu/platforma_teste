@@ -1,6 +1,5 @@
 import './App.css';
 import React, {useState} from 'react';
-import MainMenu from "./Components/MainMenu";
 import Quiz from "./Components/Quiz";
 import EndScreen from "./Components/EndScreen";
 import {QuizContext} from "./Helpers/Context";
@@ -30,6 +29,7 @@ import T31to40 from './Components/Categories/testnr/T31to40';
 import T41to50 from './Components/Categories/testnr/T41to50';
 import T51to60 from './Components/Categories/testnr/T51to60';
 import T61to70 from './Components/Categories/testnr/T61to70';
+// import Api from './Api';
 
 function App() {
   const [gameState, setGameState] = useState("testlist");
@@ -53,14 +53,15 @@ function App() {
      return false;
   }
 }
+
 document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
 });
+
   return (
 <div className='QuizContainer'>
     <div className="App noselect">
       <QuizContext.Provider value={{gameState, setGameState, score, setScore, test, setTest}}>
-        {gameState === "menu" && <MainMenu />}
         {gameState === "testlist" && <TestList />}
         {gameState === "quiz" && <Quiz />}
         {gameState === "endScreen" && <EndScreen />}
@@ -89,6 +90,7 @@ document.addEventListener('contextmenu', function(e) {
         {gameState === "t41to50" && <T41to50 />}
         {gameState === "t51to60" && <T51to60 />}
         {gameState === "t61to70" && <T61to70 />}
+        {/* {gameState === "api" && <Api />} */}
       </QuizContext.Provider>
     </div>
   </div>

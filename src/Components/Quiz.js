@@ -1,11 +1,10 @@
 import React, {useState, useContext} from 'react';
+import { animateScroll as  scroller } from 'react-scroll'
 import { QuizContext } from '../Helpers/Context';
 import {Questions} from '../Helpers/QuestionBank';
 import Nav from './Nav/Nav';
 import Footer from './Nav/Footer';
 import Watermark from "./Watermark/Watermark";
-import logo from "./logo.png";
-
 
 function Quiz() {
     const {score, setScore, setGameState, test} = useContext(QuizContext);
@@ -20,10 +19,18 @@ function Quiz() {
     const [rightC, setRightC] = useState("");
     const [rightD, setRightD] = useState("");
 
+    const scrollToTop = () => {
+        scroller.scrollTo("nav", {
+          duration: 800,
+          delay: 0,
+          smooth: "easeInOutQuart",
+        });
+      };
     const nextQuestion = () => {
         if (Questions[test][currQuestion].answer === optionChosen){
             setScore(score+1);
         }
+        scrollToTop();
         setCurrQuestion(currQuestion + 1);
         resetAnswers();
     };
@@ -31,6 +38,7 @@ function Quiz() {
         if(Questions[test][currQuestion].answer === optionChosen){
             setScore(score+ 1);
         }
+        scrollToTop();
         setGameState("endScreen");
     };
     const validate = () => {
@@ -113,7 +121,6 @@ function Quiz() {
                 )}
                 <Watermark />
             </div>
-            
             <Footer />
         </div>
         

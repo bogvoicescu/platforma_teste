@@ -1,9 +1,7 @@
-import {React, useState, useContext} from 'react';
+import React from 'react';
 import './Nav.css';
-import {QuizContext} from "../../Helpers/Context";
 
 function Nav() {
-    const {gameState, setGameState, test, setTest} = useContext(QuizContext);
 
     return(
 <div className="nav">
